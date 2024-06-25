@@ -1,0 +1,33 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context="com.example.wmdesigns.fragments.HappyFragment">
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_gravity="center">
+
+<Button
+    android:id="@+id/Insta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="2dp"
+    android:backgroundTint="#C84319"
+    android:drawableRight="@drawable/insta"
+    android:text="Instagram" />
+
+<Button
+    android:id="@+id/Whats"
+    android:text="WhatsApp"
+    android:backgroundTint="#0EC142"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableRight="@drawable/whatsapp" />
+</LinearLayout>
+
+    </FrameLayout>

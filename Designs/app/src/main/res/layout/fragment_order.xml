@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.wmdesigns.fragments.OrderFragment">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:layout_marginTop="9dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"/>
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter your name"
+                android:padding="13dp"/>
+            <TextView
+                android:id="@+id/textAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"/>
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter your address"
+                android:padding="13dp"/>
+            <TextView
+                android:id="@+id/textProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name:"/>
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:inputType="text"
+                android:hint="Enter item name"
+                android:padding="13dp"/>
+            <TextView
+                android:id="@+id/textChooseLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose length:"/>
+            <NumberPicker
+                android:id="@+id/numberPickerLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+            <TextView
+                android:id="@+id/textEnterBustSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter bust size:"/>
+            <EditText
+                android:id="@+id/editTextBustSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="Enter Bust size"
+                android:padding="13dp"/>
+            <TextView
+                android:id="@+id/textEnterHipsSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter hips size:"/>
+            <EditText
+                android:id="@+id/editTextHipsSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="Enter your hips size"
+                android:padding="13dp"/>
+            <Button
+                android:id="@+id/buttonPlaceOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place Order"
+                android:backgroundTint="@color/black"
+                android:minHeight="48dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

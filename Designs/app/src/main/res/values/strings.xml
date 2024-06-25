@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">3waash Designs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_us_text"> Welcome to my world of designs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="summer22">Summer Collection \'22</string>
+    <string name="summer23">Summer Collection \'23</string>
+</resources>

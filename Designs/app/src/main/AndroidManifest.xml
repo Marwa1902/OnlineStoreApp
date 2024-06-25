@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WMDesigns"
+        tools:targetApi="31"
+        android:enableOnBackInvokedCallback="true">
+        <activity
+            android:name="com.example.wmdesigns.gridviews.Fall23"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wmdesigns.gridviews.Summer23"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wmdesigns.gridviews.Spring23"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wmdesigns.gridviews.Fall22"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wmdesigns.gridviews.Summer22"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wmdesigns.NavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wmdesigns.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.wmdesigns.DisplayMessagesActivity"/>
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/aboutus"
+        android:title="About Us"/>
+    <item
+        android:id="@+id/navLookbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/lookbook"
+        android:title="Lookbook"/>
+    <item
+        android:id="@+id/navOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/order"
+        android:title="Order"/>
+    <item
+        android:id="@+id/navContactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/contactus"
+        android:title="Contact Us"/>
+</menu>

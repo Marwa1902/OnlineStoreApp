@@ -1,0 +1,61 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.wmdesigns.fragments.AngryFragment">
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_gravity="center">
+
+<Button
+    android:id="@+id/phone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Call Us"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/black"
+    android:backgroundTint="#C1BAB2"
+    android:layout_marginBottom="35dp"
+    android:drawableRight="@drawable/baseline_call_24"
+    />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:id="@+id/email"
+    android:backgroundTint="#DCD4D1"
+    android:background="#E3C2A6"
+    android:layout_marginBottom="15dp"
+    android:hint="Please type your email"/>
+
+<EditText
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="Type your message here"
+    android:textSize="16sp"
+    android:backgroundTint="#DCD4D1"
+    android:background="#E3C2A6"
+    android:textColor="#83675E"/>
+
+<Button
+    android:id="@+id/buttonSendText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Send Text Message"
+    android:backgroundTint="#000000"/>
+
+<Button
+    android:id="@+id/display"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Display messages"
+    android:backgroundTint="#5B3C36"/>
+</LinearLayout>
+
+    </FrameLayout>
